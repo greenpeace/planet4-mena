@@ -1,11 +1,11 @@
 {
 	"name": "planet4-mena/planet4-mena",
-	"version": "0.0.1",
+	"version": "0.0.2",
 
 	"require": {
-		"greenpeace/planet4-child-theme" : "dev-develop",
-		"greenpeace/planet4-master-theme" : "dev-develop",
-		"greenpeace/planet4-plugin-blocks" : "dev-develop"
+		"greenpeace/planet4-child-theme" : "0.28",
+		"greenpeace/planet4-master-theme" : "1.12",
+		"greenpeace/planet4-plugin-blocks" : "1.12"
 	},
 
 	"scripts": {
