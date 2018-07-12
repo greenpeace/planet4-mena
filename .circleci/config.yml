@@ -173,7 +173,7 @@ jobs:
   build-tag:
     <<: *defaults
     environment:
-      APP_HOSTNAME: master.k8s.p4.greenpeace.org
+      APP_HOSTNAME: www.greenpeace.org
       APP_HOSTPATH: mena
       CLOUDSQL_INSTANCE: planet4-prod
       CONTAINER_PREFIX: planet4-mena
@@ -225,7 +225,7 @@ jobs:
   deploy-tag:
     <<: *defaults
     environment:
-      APP_HOSTNAME: master.k8s.p4.greenpeace.org
+      APP_HOSTNAME: www.greenpeace.org
       APP_HOSTPATH: mena
       CLOUDSQL_INSTANCE: planet4-prod
       CONTAINER_PREFIX: planet4-mena
