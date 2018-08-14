@@ -1,6 +1,6 @@
 {
 	"name": "planet4-mena/planet4-mena",
-	"version": "1.0.1",
+	"version": "1.25.0",
 
 	"require": {
 		"greenpeace/planet4-child-theme" : "dev-develop"
