@@ -2,10 +2,16 @@
 	"name": "planet4-mena/planet4-mena",
 
 	"require": {
-		"greenpeace/planet4-child-theme" : "dev-develop"
+		"greenpeace/planet4-child-theme" : "dev-develop",
+		"greenpeace/planet4-child-theme-mena" : "dev-develop",
+		"greenpeace/planet4-master-theme" : "dev-planet-2685-rtl",
+		"greenpeace/planet4-plugin-blocks" : "dev-planet-2685-rtl"
 	},
 
 	"scripts": {
-		"site:custom" : []
+		"core:language": "wp language core install ar; wp language core activate ar",
+		"site:custom": [
+			"@core:language"
+		]
 	}
 }
