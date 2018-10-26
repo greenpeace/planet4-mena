@@ -5,7 +5,8 @@
 		"greenpeace/planet4-child-theme" : "dev-develop",
 		"greenpeace/planet4-child-theme-mena" : "dev-develop",
 		"greenpeace/planet4-master-theme" : "dev-planet-2685-rtl",
-		"greenpeace/planet4-plugin-blocks" : "dev-planet-2685-rtl"
+		"greenpeace/planet4-plugin-blocks" : "dev-planet-2685-rtl",
+		"wpackagist-plugin/wordpress-importer":"0.6.4"
 	},
 
 	"scripts": {
