@@ -1,6 +1,7 @@
 {
 	"name": "planet4-mena/planet4-mena",
-
+	"description": "Planet4 GP Mena website configuration",
+	"license": "MIT",
 	"require": {
 		"greenpeace/planet4-child-theme" : "dev-develop",
 		"greenpeace/planet4-child-theme-mena" : "dev-develop",
