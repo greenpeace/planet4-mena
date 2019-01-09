@@ -5,8 +5,6 @@
 	"require": {
 		"greenpeace/planet4-child-theme-mena" : "0.0.*",
 		"greenpeace/planet4-plugin-migrated-urls": "0.0.1",
-		"greenpeace/planet4-master-theme" : "dev-release/v1.27.0",
-		"greenpeace/planet4-plugin-blocks" : "dev-release/v1.27.0",
 		"wpackagist-plugin/wordpress-importer":"0.6.4"
 	},
 
