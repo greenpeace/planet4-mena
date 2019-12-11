@@ -4,55 +4,55 @@
       "label": "Planet4 MENA EN act page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/en/act/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 MENA EN explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/en/explore/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 MENA EN privacy and cookies page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/en/privacy-and-policy/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 MENA AR act page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/ar/%d8%aa%d8%ad%d8%b1%d9%91%d9%83/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 MENA AR explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/ar/%d8%a7%d8%b3%d9%83%d8%aa%d8%b4%d9%81/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 MENA AR privacy and cookies page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/ar/%d8%ae%d8%b5%d9%88%d8%b5%d9%8a%d8%a9-%d8%a7%d9%84%d9%85%d8%b3%d8%aa%d8%ae%d8%af%d9%85/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 MENA FR act page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/fr/agissez/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 MENA FR explore page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/fr/explorer/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     },
     {
       "label": "Planet4 MENA FR privacy and cookies page",
       "url": "https://APP_HOSTNAME/APP_HOSTPATH/fr/confidentialite-de-lutilisateur/",
       "delay": 3000,
-      "misMatchThreshold": 0.5
+      "misMatchThreshold": 1.5
     }
   ]
 }
