@@ -6,7 +6,8 @@
         "greenpeace/planet4-child-theme-mena" : "v0.0.*",
         "plugins/sitepress-multilingual-cms": "*",
         "plugins/wpml-translation-management": "*",
-        "plugins/wpml-string-translation": "*"
+        "plugins/wpml-string-translation": "*",
+        "plugins/wpml-media-translation": "*"
     },
     "scripts": {
         "core:language": "wp language core install ar; wp language core activate ar;wp language core install fr_CA; wp language core activate fr_CA",
