@@ -3,7 +3,7 @@
     "description": "Planet4 GP Mena website configuration",
     "license": "MIT",
     "require": {
-        "greenpeace/planet4-child-theme-mena" : "v0.0.*",
+        "greenpeace/planet4-child-theme-mena" : "dev-main",
         "plugins/sitepress-multilingual-cms": "*",
         "plugins/wpml-translation-management": "*",
         "plugins/wpml-string-translation": "*",
