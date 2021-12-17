@@ -11,7 +11,6 @@ job_environments:
     GCLOUD_CLUSTER: p4-development
     HELM_NAMESPACE: develop
     HELM_RELEASE: planet4-mena
-    NEWRELIC_APPNAME: P4 Mena Development
     WP_DB_NAME: mena_wordpress_develop
     WP_STATELESS_BUCKET: planet4-mena-stateless-develop
   release_build_env: &release_build_env
@@ -24,7 +23,6 @@ job_environments:
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: mena
     HELM_RELEASE: planet4-mena-release
-    NEWRELIC_APPNAME: P4 Mena Release
     WP_DB_NAME: mena_wordpress_release
     WP_STATELESS_BUCKET: planet4-mena-stateless-release
   production_environment: &production_environment
@@ -34,6 +32,5 @@ job_environments:
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: mena
     HELM_RELEASE: planet4-mena-master
-    NEWRELIC_APPNAME: P4 Mena Production
     WP_DB_NAME: mena_wordpress_master
     WP_STATELESS_BUCKET: planet4-mena-stateless
