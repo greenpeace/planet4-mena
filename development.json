@@ -1,5 +1,5 @@
 {
   "require": {
-    "greenpeace/planet4-master-theme": "dev-add-chevron-to-languages-menu"
+    "greenpeace/planet4-master-theme": "dev-PLANET-6776_change_condition_to_show_languages_menu"
   }
 }
