@@ -4,6 +4,7 @@
     "license": "MIT",
     "require": {
         "greenpeace/planet4-child-theme-mena" : "dev-main",
+        "plugins/gravityformshubspot": "*",
         "plugins/sitepress-multilingual-cms": "*",
         "plugins/wpml-string-translation": "*"
     },
