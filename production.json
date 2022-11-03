@@ -1,5 +1,5 @@
 {
-    "require":{
-        "greenpeace/planet4-child-theme-mena" : "v0.0.*"
-    }
+  "require":{
+    "greenpeace/planet4-child-theme-mena" : "v0.0.*"
+  }
 }
