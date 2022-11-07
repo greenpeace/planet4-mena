@@ -7,7 +7,7 @@
     "plugins/gravityformshubspot": "*",
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-string-translation": "*",
-    "greenpeace/planet4-gpmena-plugin-quiz": "dev-main#b9ad148e55836ff44f3080048ed512e9587dffe4"
+    "greenpeace/planet4-gpmena-plugin-quiz": "dev-main#3e5ee4886163d50965ed6201fbadc5610a76ceed"
   },
   "scripts": {
     "core:language": "wp language core install ar; wp language core activate ar;wp language core install fr_CA; wp language core activate fr_CA",
