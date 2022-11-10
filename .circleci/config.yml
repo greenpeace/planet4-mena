@@ -9,7 +9,7 @@ docker_auth: &docker_auth
   password: $DOCKERHUB_PASSWORD
 defaults: &defaults
   docker:
-    - image: greenpeaceinternational/p4-builder:latest
+    - image: greenpeaceinternational/p4-builder:perms
       auth:
         !!merge <<: *docker_auth
 orbs:
