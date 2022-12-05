@@ -95,6 +95,8 @@ job_definitions:
   build_steps: &build_steps
     working_directory: ~/
     steps:
+      - setup_remote_docker:
+          docker_layer_caching: false
       - run: activate-gcloud-account.sh
       - run: mkdir -p /tmp/workspace/var /tmp/workspace/src
       - run: echo "${CIRCLE_BUILD_NUM}" > /tmp/workspace/var/circle-build-num
