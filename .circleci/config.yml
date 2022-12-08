@@ -97,6 +97,8 @@ job_definitions:
     steps:
       - setup_remote_docker:
           docker_layer_caching: false
+      - run: |
+          if [[ -d source/cache ]]; then ls -al source/cache; fi
       - run: activate-gcloud-account.sh
       - run: mkdir -p /tmp/workspace/var /tmp/workspace/src
       - run: echo "${CIRCLE_BUILD_NUM}" > /tmp/workspace/var/circle-build-num
