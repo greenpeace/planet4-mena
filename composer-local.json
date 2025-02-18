@@ -4,6 +4,7 @@
   "license": "MIT",
   "require": {
     "greenpeace/planet4-child-theme-mena" : "dev-main",
+    "wpackagist-plugin/wordpress-seo": "23.9.*",
     "plugins/gravityformshubspot": "*",
     "plugins/sitepress-multilingual-cms": "*",
     "plugins/wpml-string-translation": "*",
@@ -13,9 +14,11 @@
   "scripts": {
     "core:language": "wp language core install ar; wp language core activate ar;wp language core install fr_CA; wp language core activate fr_CA",
     "install:plugin-woocommerce-web-payment-gateway": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/woocommerce-web-payment-gateway-2.0.16.zip",
+"install:plugin-yoast-seo": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/wordpress-seo-premium-23.9.zip",
     "site:custom": [
       "@core:language",
-      "@install:plugin-woocommerce-web-payment-gateway"
+      "@install:plugin-woocommerce-web-payment-gateway" ,
+      "@install:plugin-yoast-seo",
     ]
   }
 }
