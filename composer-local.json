@@ -22,19 +22,3 @@
     ]
   }
 }
-{
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/codesnippetspro/code-snippets"
-    }
-  ],
-  "require": {
-    "codesnippetspro/code-snippets": "dev-master"
-  },
-  "extra": {
-    "installer-paths": {
-      "wp-content/plugins/{$name}/": ["type:wordpress-plugin"]
-    }
-  }
-}
