@@ -1,5 +1,5 @@
 {
   "require":{
-    "greenpeace/planet4-child-theme-mena" : "dev-disable-include-articles-by-default"
+    "greenpeace/planet4-child-theme-mena" : "dev-include-articles--set-to-no-by-default"
   }
 }
