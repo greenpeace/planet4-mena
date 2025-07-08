@@ -436,12 +436,12 @@ jobs:
       <<: *production_environment
     steps:
       - run:
-        name: Sync ElasticPress
-        command: |
-          yes | wp wpml_elasticpress sync --setup
-          if [ $? -eq 1 ]; then
-              wp elasticpress sync --setup --yes
-          fi
+          name: Sync ElasticPress
+          command: |
+            yes | wp wpml_elasticpress sync --setup
+            if [ $? -eq 1 ]; then
+                wp elasticpress sync --setup --yes
+            fi
 
 workflow_definitions:
   on_develop_commit: &on_develop_commit
