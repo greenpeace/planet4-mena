@@ -430,6 +430,7 @@ jobs:
       - run: ./go.sh
 
   elasticpress:
+    <<: *defaults
     environment:
       <<: *common_environment
       <<: *production_environment
@@ -567,6 +568,9 @@ workflows:
             branches:
               only:
                 - main
+    jobs:
+      - backup:
+          context: org-global
 
   elasticpress:
     triggers:
@@ -576,7 +580,6 @@ workflows:
             branches:
               only:
                 - main
-
     jobs:
-      - backup:
+      - elasticpress:
           context: org-global
