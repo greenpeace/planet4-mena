@@ -429,6 +429,19 @@ jobs:
       - run: ls
       - run: ./go.sh
 
+  elasticpress:
+    environment:
+      <<: *common_environment
+      <<: *production_environment
+    steps:
+      - run:
+        name: Sync ElasticPress
+        command: |
+          yes | wp wpml_elasticpress sync --setup
+          if [ $? -eq 1 ]; then
+              wp elasticpress sync --setup --yes
+          fi
+
 workflow_definitions:
   on_develop_commit: &on_develop_commit
     context: org-global
@@ -554,6 +567,16 @@ workflows:
             branches:
               only:
                 - main
+
+  elasticpress:
+    triggers:
+      - schedule:
+          cron: "30 04 * * *"
+          filters:
+            branches:
+              only:
+                - main
+
     jobs:
       - backup:
           context: org-global
