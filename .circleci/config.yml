@@ -436,12 +436,11 @@ jobs:
       <<: *production_environment
     steps:
       - run:
+          name: Configure
+          command: activate-gcloud-account.sh
+      - run:
           name: Sync ElasticPress
-          command: |
-            yes | wp wpml_elasticpress sync --setup
-            if [ $? -eq 1 ]; then
-                wp elasticpress sync --setup --yes
-            fi
+          command: elasticpress-sync.sh
 
 workflow_definitions:
   on_develop_commit: &on_develop_commit
