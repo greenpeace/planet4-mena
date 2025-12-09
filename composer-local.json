@@ -11,7 +11,7 @@
         "greenpeace/planet4-gpmena-plugin-quiz": "dev-main#7b07ce17ce58fc5536cc20a7a004a6c34ddc4858",
         "plugins/wpml-elasticpress": "*",
         "greenpeace/planet4-gpch-plugin-optimize": "0.4.*",
-        "greenpeace/greenpeace-mena-custom-blocks": "v1.0.0"
+        "greenpeace/greenpeace-mena-custom-blocks": "v1.*"
     },
     "scripts": {
         "core:language": "wp language core install ar; wp language core activate ar;wp language core install fr_CA; wp language core activate fr_CA",
