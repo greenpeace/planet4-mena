@@ -2,15 +2,9 @@
     "name": "planet4-mena/planet4-mena",
     "description": "Planet4 GP Mena website configuration",
     "license": "MIT",
-    "repositories": [
-        {
-            "type": "composer",
-            "url": "https://my.yoast.com/packages/"
-        }
-    ],
     "require": {
         "greenpeace/planet4-child-theme-mena": "dev-main",
-        "yoast/wordpress-seo-premium": "23.9.*",
+        "wpackagist-plugin/wordpress-seo": "23.9.*",
         "plugins/gravityformshubspot": "*",
         "plugins/sitepress-multilingual-cms": "*",
         "plugins/wpml-string-translation": "*",
