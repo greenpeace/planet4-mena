@@ -19,10 +19,10 @@
         "install:plugin-yoast": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/wordpress-seo-premium-27.7.zip",
         "install:plugin-google-site-kit": "wp plugin install --activate https://storage.googleapis.com/planet4-3rdparty-plugins/google-site-kit.1.180.0.zip",
         "site:custom": [
-            "@core:language",
             "@install:plugin-woocommerce-web-payment-gateway",
             "@install:plugin-yoast",
-            "@install:plugin-google-site-kit"
+            "@install:plugin-google-site-kit",
+            "@core:language"
         ]
     }
 }
