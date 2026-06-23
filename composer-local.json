@@ -10,7 +10,7 @@
         "plugins/wpml-string-translation": "*",
         "greenpeace/planet4-gpmena-plugin-quiz": "dev-main#7b07ce17ce58fc5536cc20a7a004a6c34ddc4858",
         "plugins/wpml-elasticpress": "*",
-        "greenpeace/planet4-gpch-plugin-optimize": "0.4.*",
+        "greenpeace/planet4-gpch-plugin-optimize": "0.*",
         "greenpeace/greenpeace-mena-custom-blocks": "v1.*"
     },
     "scripts": {
