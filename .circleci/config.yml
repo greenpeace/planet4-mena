@@ -56,8 +56,7 @@ job_environments:
     GOOGLE_PROJECT_ID: planet4-production
     HELM_NAMESPACE: mena
     HELM_RELEASE: planet4-mena-master
-    MIN_REPLICA_COUNT: 1
-    MAX_REPLICA_COUNT: 1
+    MIN_REPLICA_COUNT: 2
     WP_DB_NAME: mena_wordpress_master
     WP_STATELESS_BUCKET: planet4-mena-stateless
 
